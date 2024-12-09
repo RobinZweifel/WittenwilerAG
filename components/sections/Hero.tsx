@@ -54,14 +54,6 @@ export default function Hero() {
               Kontakt aufnehmen
               <ArrowRight className="ml-2 h-5 w-5" />
             </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href={`tel:${companyContent.emergency.phone}`}
-              className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-red-600 font-semibold rounded-md transition-colors"
-            >
-              24/7 Notfalldienst
-            </motion.a>
           </motion.div>
         </div>
       </div>
